@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Codec PRO (News)", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+
+
+}
+
+#box-container-login{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-container-imagem{
+    height: 100%;
+    width: 50%;
+    background-image: url(../assets/imagem01.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and(max-width: 768px){
+    #box-container-imagem{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+.login{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#box-login{
+    height: 60vh;
+    width: 50%;
+    overflow: hidden;
+    
+}
+
+.caixa-valores{
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    padding: 10px;
+    width: 80%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#form{
+    height: 40vh;
+    background-color: rgb(212, 208, 201);
+    border-radius: 8px;
+    padding: 26px 24px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#div-inputs{
+    width: 100%;
+}
+
+#container-textos-box-form{
+    margin: 10px 0 0 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos-box-form{
+    width: 50%;
+    font-size: 12px;
+}
+
+.bt-conect-se{
+    width: 80%;
+    display: block;
+    background-color: #5394F9;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 15px auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+
+
